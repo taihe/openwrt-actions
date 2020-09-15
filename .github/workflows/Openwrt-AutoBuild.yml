@@ -1,4 +1,4 @@
-name: 开始我的固件gu
+name: 开始我的固件编译
 
 on:
 #  release:
@@ -8,8 +8,8 @@ on:
       - master
     paths:
       - 'start'
-  schedule:
-    - cron: 0 20 * * *
+#  schedule:
+#    - cron: 0 20 * * *
   watch:
     types: [started]
 
